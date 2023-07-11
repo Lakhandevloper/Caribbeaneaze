@@ -6,7 +6,7 @@
 }
 .Container{
     /* background-color: blue; */
-    background-image: url('C:\Users\Rj\OneDrive\Desktop\NewProject\my-app\src\screens\Image\Rectangle61.png');
+    background-image: url('./Image/Rectangle61.png');
     height: '100%';
     align-items: flex-end;
     display: flex;

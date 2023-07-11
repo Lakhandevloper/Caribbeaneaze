@@ -11,7 +11,7 @@ export default class RegistrationHeader extends Component {
     render() {
         return (
             <nav style={{ borderBottom: '1px solid #E5E7EB' }} class="navbar navbar-expand-lg navbar-white  ">
-                <div style={{ width: '90%' ,height:70,justifyContent:'space-between'}} class="container-fluid">
+                <div style={{ width: '95%' ,height:70,justifyContent:'space-between'}} class="container-fluid">
                     <img style={{ width: 20, height: 20, }} alt='' src={require('../../Image/Group1.png')} />
                     <a style={{ color: '#F15A29', fontSize: 20, fontWeight: 'bold', marginLeft: 5 }} class="navbar-brand" href="/">CARIBBEANEAZE</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

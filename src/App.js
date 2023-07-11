@@ -4,15 +4,19 @@ import {Routes,Route} from 'react-router-dom'
 import Signup from './screens/Signup'
 import Login from './screens/Login'
 import TeamsCondition from './screens/TeamsCondition'
-// import RegistrationHeader from './screens/Components/RegistrationHeader'
-// import Personalinformation from './screens/Components/Personalinformation';
 import RegistrationProcess from './screens/RegistrationProcess';
 import Deshbord from './screens/Deshboard';
+import MyListing from './screens/MyListing';
+import BookingHistry from './screens/BookingHistry';
+import EarningScreen from './screens/EarningScreen';
 const App = () => {
   return (
      <Routes>
       {/* <Route path='/' element={<RegistrationHeader/> }/> */}
-      <Route path='/Deshbord' element={<Deshbord />}/>
+      <Route path='/' element={<EarningScreen />}/>
+      <Route path='/' element={<BookingHistry />}/>
+      <Route path='/' element={<MyListing />}/>
+      <Route path='/' element={<Deshbord />}/>
      <Route path='/' element={<RegistrationProcess/>}/>
       <Route path='/Login' element={<Login/>}/>
      <Route path='/Signup' element={<Signup />}/>
